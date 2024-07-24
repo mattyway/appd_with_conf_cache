@@ -8,11 +8,13 @@ pluginManagement {
     resolutionStrategy {
         eachPlugin {
             when (requested.id.id) {
-                "adeum" -> useModule("com.appdynamics:appdynamics-gradle-plugin:23.7.1")
+                "adeum" -> useModule("com.appdynamics:appdynamics-gradle-plugin:24.4.1")
             }
         }
     }
 }
+
+@Suppress("UnstableApiUsage")
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {

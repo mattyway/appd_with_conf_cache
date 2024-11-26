@@ -5,14 +5,14 @@ plugins {
 }
 
 android {
-    compileSdk = 34
+    compileSdk = 35
 
     namespace = "com.test.appd.withbuildconf"
 
     defaultConfig {
         applicationId = "com.test.appd.withbuildconf"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.2.3"
 
@@ -34,8 +34,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 }
 
